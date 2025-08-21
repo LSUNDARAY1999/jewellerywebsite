@@ -581,7 +581,6 @@ border-radius: 50%;
   /* align-items: center; */
   min-width: 00px;
 }
-
 .contact-left {
   flex: 1;
   min-width: 400px;
@@ -707,20 +706,31 @@ border-radius: 50%;
     padding: 10px 20px;
     font-size: 14px;
   }
-
   .bangle-img,
   .bride-img {
-    width: 100%;
+    width: 100%;   /* pura width neba */
+    max-width: 100%;
+    border-radius: 0; /* ichha hele radius hatai pariba */
   }
+
+  /* Order fix kariba pain */
+  .bangle-img {
+    order:1;
+  }
+
+  .bride-img {
+  order:2;
+}
 }
 
+
 .bangle-img
- {
-  width: 100%;
+ .bangle-img {
   max-width: 400px;
   border-radius: 10px;
-  object-fit:cover;
+  object-fit: cover;
 }
+
 .highlights{
   display: flex;
   justify-content: space-between;
