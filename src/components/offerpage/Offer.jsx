@@ -3,6 +3,7 @@ import React from 'react';
 import TopBar from '../header/Topbar';
 import Navbar from '../header/Navbar';
 import OfferProduct from './0ffer';
+import Footer from '../Footer';
 import { useNavigate } from 'react-router-dom';
 
 function Offer() {
@@ -60,6 +61,8 @@ function Offer() {
         ))}
       </div>
     </div>
+
+    <Footer/>
         
         </>
   );

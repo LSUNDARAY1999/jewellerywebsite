@@ -26,7 +26,7 @@ import Home from "./screen/home/Home";
 import About from "./screen/home/About";
 // import Blog from './components/Blog';
 // import Contact from './components/Contact';
-import Offer from "./components/offerpage/offer";
+import Offer from "./components/offerpage/Offer";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
